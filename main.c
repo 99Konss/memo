@@ -91,6 +91,7 @@ int main(int argc, char *argv[]) {
         printf("  %s -l     list reminders\n", argv[0]);
         printf("  %s -c     clear reminder list\n", argv[0]);
         printf("  %s -h     display this screen\n", argv[0]);
+        return 1;
     }
 
     else {
